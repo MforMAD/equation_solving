@@ -23,10 +23,10 @@ int main(int argc, char *argv[])
 	if (d < 0) {
 		printf("No real roots\n");
 	} else {
-			double x1 = (-b + sqrt(d)) / (2 * a);
-			double x2 = (-b - sqrt(d)) / (2 * a);
-			
-			printf("x1 = %lf x2 = %lf\n", x1, x2);
+		double x1 = (-b + sqrt(d)) / (2 * a);
+		double x2 = (-b - sqrt(d)) / (2 * a);
+
+		printf("x1 = %lf x2 = %lf\n", x1, x2);
 	}
 
 	return EXIT_SUCCESS;
