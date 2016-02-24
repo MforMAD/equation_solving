@@ -7,5 +7,5 @@ int main(int argc, char *argv[])
 		exit(EXIT_FAILTURE);
 	}
 
-	return 0;
+	return EXIT_SUCCESS;
 }
